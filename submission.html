@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>PIXIFY Submissions</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="bgDark flex spaceBetween alignCenter">
+        <a href="/index.html" id="title" class="cyan font36">PIXIFY</a>
+        <div class="hamburger textRight">
+            <button type="button" id="dropBtn" class="font36 cyan bgDark noBorder">&#x2630;</button>
+        </div>
+        <div class="flex spaceBetween alignCenter hide">
+            <nav class="flex spaceBetween">
+                <a href="/submission.html">2023 Submissions</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button type="button" class="cyan bgDark noBorder font16 textCenter">Dark Mode</button>
+        </div>
+    </header>
+    <main class="flex spaceAround padTop4">
+        <div id="submissions" class="flex column textCenter">
+            <p class="font36 bold">2023 Submissions</p>
+            <div id="photoCatalog"></div>
+        </div>
+        <div id="form-container" class="flex column alignCenter textCenter">
+            <form class="flex column alignCenter textCenter" id="info">
+                <h3 class="font24 white bold">SUBMIT YOUR WORK</h3>
+                <input type="text" name="name" placeholder="Your Name"  required />
+                <input type="text" name = "title" placeholder="Title of your Entry" required />
+                <input type= "url" name="link1" placeholder="Image Url One" required />
+                <input type= "url" name="link2" placeholder="Image Url Two" required />
+                <input type= "url" name="link3" placeholder="Image Url Three" required />
+                <input type= "url" name="link4" placeholder="Image Url Four" required />
+                <input type= "url" name="link5" placeholder="Image Url Five" required />
+                <button type="submit" id="submit" class="button bgDark">Submit</button>
+            </form> 
+        </div>
+    </main>
+    <script src="/js/script.js"></script>
+    <script src="/js/darkMode.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+    <title>PIXIFY Submissions</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="bgDark flex spaceBetween alignCenter">
+        <a href="/index.html" id="title" class="cyan font36">PIXIFY</a>
+        <div class="hamburger textRight">
+            <button type="button" id="dropBtn" class="font36 cyan bgDark noBorder">&#x2630;</button>
+        </div>
+        <div class="flex spaceBetween alignCenter hide">
+            <nav class="flex spaceBetween">
+                <a href="/submission.html">2023 Submissions</a>
+                <a href="/about.html">About</a>
+            </nav>
+            <button type="button" class="cyan bgDark noBorder font16 textCenter">Dark Mode</button>
+        </div>
+    </header>
+
+    <main class="flex column alignCenter textCenter">
+        <div></div>
+        <div class="flex spaceBetween textCenter">
+            <button class="button bgDark noBorder font2vw" id="prev">Previous</button>
+            <button class="button bgDark noBorder font2vw" id="next">Next</button>
+        </div>
+    </main>
+    
+    <script src="/js/details.js"></script>
+    <script src="/js/darkMode.js"></script>
+</body>
+</html>
